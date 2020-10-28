@@ -1,2 +1,2 @@
 # web-app-my-resume
-A student project
+This repository contains a web application named My Resume. This is a student project.
