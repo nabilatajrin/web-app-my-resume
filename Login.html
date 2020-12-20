@@ -11,9 +11,7 @@ if($validUser) {
    header("Location: /login-success.php"); die();
 }
 ?>
-
 <!DOCTYPE html>
-
 <html>
 	<head>
 		<style>
@@ -21,7 +19,6 @@ if($validUser) {
 				width: 100%;
 				border: 1px solid gray;
 			}
-
 			header, footer {
 				padding: 1em;
 				color: white;
@@ -29,7 +26,6 @@ if($validUser) {
 				clear: left;
 				text-align: center;
 			}
-
 			nav {
 				float: left;
 				max-width: 300px;
@@ -41,12 +37,10 @@ if($validUser) {
 			nav ul {
 				list-style-type: none;
 				padding: 0;
-			}
-			   
+			}   
 			nav ul a {
 				text-decoration: none;
 			}
-
 			/* Style inputs */
 			input[type=text], select, textarea {
 				width: 100%;
@@ -56,7 +50,6 @@ if($validUser) {
 				margin-bottom: 16px;
 				resize: vertical;
 			}
-
 			input[type=submit] {
 				background-color: #757575;
 				color: white;
@@ -65,25 +58,21 @@ if($validUser) {
 				border: none;
 				cursor: pointer;
 			}
-
 			input[type=submit]:hover {
 				background-color: #000000;
 			}
-
 			article {
 				margin-left: 170px;
 				border-left: 1px solid gray;
 				padding: 1em;
 				overflow: hidden;
 			}
-			
 			body {margin:0;font-family:Arial}
 
 			.topnav {
 			  overflow: hidden;
 			  background-color: #333;
 			}
-
 			.topnav a {
 			  float: left;
 			  min-width: 320px;
@@ -94,18 +83,13 @@ if($validUser) {
 			  text-decoration: none;
 			  font-size: 17px;
 			}
-
-			
-
 			.topnav .icon {
 			  display: none;
 			}
-
 			.dropdown {
 				float: left;
 				overflow: hidden;
 			}
-
 			.dropdown .dropbtn {
 				min-width: 320px;
 				font-size: 17px;    
@@ -117,7 +101,6 @@ if($validUser) {
 				font-family: inherit;
 				margin: 0;
 			}
-
 			.dropdown-content {
 				display: none;
 				position: absolute;
@@ -126,12 +109,10 @@ if($validUser) {
 				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 				z-index: 1;
 			}
-			
 			.active {
 			  background-color: #4CAF50;
 			  color: white;
 			}
-
 			.dropdown-content a {
 				float: none;
 				
@@ -141,21 +122,17 @@ if($validUser) {
 				display: block;
 				text-align: left;
 			}
-
 			.topnav a:hover, .dropdown:hover .dropbtn {
 			  background-color: #555;
 			  color: white;
 			}
-
 			.dropdown-content a:hover {
 				background-color: #ddd;
 				color: black;
 			}
-
 			.dropdown:hover .dropdown-content {
 				display: block;
 			}
-
 			@media screen and (max-width: 600px) {
 			  .topnav a:not(:first-child), .dropdown .dropbtn {
 				display: none;
@@ -165,7 +142,6 @@ if($validUser) {
 				display: block;
 			  }
 			}
-
 			@media screen and (max-width: 600px) {
 			  .topnav.responsive {position: relative;}
 			  .topnav.responsive .icon {
@@ -189,18 +165,13 @@ if($validUser) {
 		</style>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	</head>
-	
-	
 	<body>
 		<header>
 			<h1>Hi! It's Nabila</h1>
 			<h4><i>I'm an Architect</i></h4>
 		</header>
-		
-		
 		<div class="topnav" id="myTopnav">
 			  <a href="resume Nabila.html" >Home</a>
-			  
 			  <div class="dropdown">
 				<button class="dropbtn">About Me 
 				  <i class="fa fa-caret-down"></i>
@@ -211,8 +182,6 @@ if($validUser) {
 				  <a href="Work Info.html">Work Info</a>
 				</div>
 			  </div> 
-			  
-			  
 			  <a href="contact Nabila.html" >Contact Me</a>
 			  <div class="dropdown">
 				<button class="dropbtn">Admin 
@@ -223,15 +192,10 @@ if($validUser) {
 				  <a href="Contact List.html">Contact List</a>
 				</div>
 			  </div> 
-		 
 			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 		</div>
-		
-	
 		<div class="row">
-				
 				<div class="column">
-					
 					<form action="" method="post" name="Login_Form">
 					  <table width="400" border="0" align="center" cellpadding="5" cellspacing="1" class="Table">
 						<?php if(isset($msg)){?>
@@ -258,8 +222,6 @@ if($validUser) {
 					</form>
 				</div>
 			</div> 
-			
-
 		<script>
 		function myFunction() {
 			var x = document.getElementById("myTopnav");
@@ -270,10 +232,8 @@ if($validUser) {
 			}
 		}
 		</script>
-	
 		<footer>Copyright &copy; nabila.tajrin@dnet.org.bd</footer>
 		</div>
-
 		<script>
 			function functionObjective() {
 			  document.getElementById("demo").innerHTML = "Hello World";
